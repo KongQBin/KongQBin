@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
   <img src="https://img.shields.io/badge/HarmonyOS-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white" />
   <img src="https://img.shields.io/badge/ELF_Parsing_%26_Manipulation-5C2D91?style=for-the-badge&logo=gnu&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bare_Metal-555555?style=for-the-badge&logo=microchip&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bare_Metal-555555?style=for-the-badge&logo=samsung&logoColor=white" />
   <img src="https://img.shields.io/badge/ARMv8_Assembly-0091BD?style=for-the-badge&logo=arm&logoColor=white" />
   <img src="https://img.shields.io/badge/Cross_Compilation-232F3E?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/GCC_/_GDB-232F3E?style=for-the-badge&logo=gnu&logoColor=white" />
@@ -28,6 +28,7 @@
   <img src="https://img.shields.io/badge/MIPS64el-333333?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LoongArch64-333333?style=for-the-badge" />
   <img src="https://img.shields.io/badge/SW64_(Sunway)-333333?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ALPHA64-333333?style=for-the-badge" />
 </p>
 
 <p align="center">
