@@ -26,7 +26,7 @@
   <img src="https://img.shields.io/badge/ARM-333333?style=for-the-badge&logo=arm&logoColor=white" />
   <img src="https://img.shields.io/badge/ARM64-333333?style=for-the-badge&logo=arm&logoColor=white" />
   <img src="https://img.shields.io/badge/MIPS64el-333333?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LoongArch64-333333?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LoongArch64(1.0/2.0)-333333?style=for-the-badge" />
   <img src="https://img.shields.io/badge/SW64_(Sunway)-333333?style=for-the-badge" />
   <img src="https://img.shields.io/badge/ALPHA64-333333?style=for-the-badge" />
 </p>
