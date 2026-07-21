@@ -30,7 +30,11 @@
   <img src="https://img.shields.io/badge/SW64_(Sunway)-333333?style=for-the-badge" />
   <img src="https://img.shields.io/badge/ALPHA64-333333?style=for-the-badge" />
 </p>
-    
+
+<p align="center">
+  <img src="motto.png" alt="若无必要，勿增实体" width="200" />
+</p>
+
 <p align="center">
   <a href="https://hits.sh/github.com/KongQBin/"><img alt="Hits" src="https://hits.sh/github.com/KongQBin.svg?label=%E7%82%B9%E5%87%BB%E9%87%8F&color=007ec6"/></a>
 </p>
