@@ -36,6 +36,10 @@
 </p>
 
 <p align="center">
+  <img src="job-hunting.svg" alt="求职中" />
+</p>
+
+<p align="center">
   <a href="https://hits.sh/github.com/KongQBin/"><img alt="Hits" src="https://hits.sh/github.com/KongQBin.svg?label=%E7%82%B9%E5%87%BB%E9%87%8F&color=007ec6"/></a>
 </p>
 
