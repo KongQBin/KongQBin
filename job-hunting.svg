@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="44" viewBox="0 0 300 44">
+  <defs>
+    <style>
+      .badge-bg { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 8; }
+      .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 700; font-size: 13px; fill: #58a6ff; }
+      .text-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 800; font-size: 13px; fill: #3fb950; letter-spacing: 1.5px; }
+      .dot { fill: #2ea44f; }
+      .pulse {
+        animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        transform-origin: 24px 22px;
+      }
+      @keyframes pulse-ring {
+        0% { transform: scale(0.95); opacity: 0.8; }
+        50% { transform: scale(2); opacity: 0; }
+        100% { transform: scale(0.95); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect class="badge-bg" x="2" y="2" width="296" height="40" />
+  
+  <circle class="pulse" cx="24" cy="22" r="5" fill="#2ea44f" />
+  <circle class="dot" cx="24" cy="22" r="4.5" />
+
+  <text x="44" y="27" class="text-title">STATUS :</text>
+  <text x="110" y="27" class="text-body">求职 ING</text>
+</svg>
