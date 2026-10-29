@@ -36,7 +36,9 @@
 </p>
 
 <p align="center">
-  <img src="job-hunting.svg" alt="求职中" />
+  <a href="51024054@QQ.com">
+    <img src="job-hunting.svg" alt="求职ing" />
+  </a>
 </p>
 
 <p align="center">
