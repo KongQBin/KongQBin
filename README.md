@@ -36,8 +36,8 @@
 </p>
 
 <p align="center">
-  <a href="51024054@QQ.com">
-    <img src="job-hunting.svg" alt="求职ing" />
+  <a href="mailto:51024054@QQ.com">
+    <img src="https://raw.githubusercontent.com/KongQBin/KongQBin/main/job-hunting.svg?v=3" alt="求职ing" />
   </a>
 </p>
 
