@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="340" height="44" viewBox="0 0 340 44">
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="44" viewBox="0 0 360 44">
   <defs>
     <style>
       .badge-bg { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 8; }
-      .badge-bg:hover { stroke: #58a6ff; fill: #1c2128; cursor: pointer; }
       .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 700; font-size: 13px; fill: #58a6ff; }
-      .text-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 800; font-size: 13px; fill: #3fb950; letter-spacing: 1px; }
+      .text-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 800; font-size: 13px; fill: #3fb950; letter-spacing: 1.5px; }
       .text-hint { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #8b949e; }
       .dot { fill: #2ea44f; }
       .mail-icon { fill: #8b949e; }
@@ -20,19 +19,25 @@
     </style>
   </defs>
 
-  <rect class="badge-bg" x="2" y="2" width="336" height="40" />
+  <!-- 外框背景 -->
+  <rect class="badge-bg" x="2" y="2" width="356" height="40" />
   
-  <!-- 呼吸指示灯 -->
+  <!-- 动态绿点 -->
   <circle class="pulse" cx="24" cy="22" r="5" fill="#2ea44f" />
   <circle class="dot" cx="24" cy="22" r="4.5" />
 
-  <!-- 文字 -->
+  <!-- 状态文本 -->
   <text x="44" y="27" class="text-title">STATUS :</text>
   <text x="110" y="27" class="text-body">求职 ING</text>
 
-  <!-- 邮件小图标 -->
-  <path class="mail-icon" transform="translate(198, 14) scale(0.85)" d="M1.75 3h12.5c.966 0 1.75.784 1.75 1.75v6.5A1.75 1.75 0 0 1 14.25 13H1.75A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3ZM1.5 5.09v6.16c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V5.09l-5.744 3.83a1.25 1.25 0 0 1-1.512 0L1.5 5.09Zm.62-1.09 5.88 3.92a.25.25 0 0 0 .28 0l5.88-3.92a.25.25 0 0 0-.14-.5H1.98a.25.25 0 0 0-.14.5Z" />
+  <!-- 分隔虚线 -->
+  <line x1="210" y1="12" x2="210" y2="32" stroke="#30363d" stroke-width="1" />
 
-  <!-- 提示文字 -->
-  <text x="216" y="26" class="text-hint">点击发邮件</text>
+  <!-- 邮件小图标 -->
+  <g class="mail-icon" transform="translate(225, 14)">
+    <path d="M1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25v-8.5C0 2.784.784 2 1.75 2ZM1.5 4.34v7.91c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V4.34l-5.744 3.83a1.25 1.25 0 0 1-1.512 0L1.5 4.34Zm.62-1.09 5.88 3.92a.25.25 0 0 0 .28 0l5.88-3.92a.25.25 0 0 0-.14-.5H1.98a.25.25 0 0 0-.14.5Z" />
+  </g>
+
+  <!-- 点击提示文字 -->
+  <text x="246" y="26" class="text-hint">点击发邮件</text>
 </svg>
